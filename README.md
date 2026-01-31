@@ -1,3 +1,5 @@
+# CanSniffer & Mini Screen Build (MK1)
+
 Hi, 
 
 Welcome to CanSniffer & Mini Screen build MK1, this project came from the desire to interact with my boat’s network, sniff data and display on my own custom screen with custom graphics. 
@@ -10,7 +12,11 @@ Currently it is set up for single frame reading of the Trim % and RPM PGN. It us
 
 In my experience this build has been stable and I am happy with it, of course anyone who has more experience will be able to add features or optimizations. Good luck, I would love to hear from anyone who is working on this project and what you end up making. 
 
-
+## Getting Started
+1. Upload the Arduino sketch to an Arduino Nano  
+2. Connect MCP2515 to the NMEA2000 backbone  
+3. Plug Arduino into Raspberry Pi via USB  
+4. Run the dashboard script on the Pi  
 
 This project was developed and tested on:
 - Suzuki DF200 outboard
@@ -28,3 +34,5 @@ The current firmware is configured for:
 ## Licensing
 - Software (Arduino + Pi code): GPL v3  
 - Hardware/design files (STLs, wiring): CC BY-SA 4.0
+
+This project is for experimental/educational use only.
