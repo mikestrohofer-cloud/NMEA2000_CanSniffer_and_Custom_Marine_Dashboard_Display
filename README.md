@@ -31,6 +31,15 @@ The current firmware is configured for:
 - **Shift / Gear Indicator** via proprietary Suzuki PGN:
 - **PGN FF12 (65298)** — Suzuki-specific gear data
 
+## Serial Output Format
+The Arduino outputs a 4-field CSV frame over USB:
+
+trim_raw,rpm_raw,gear,fuel_gph
+Where `gear` is encoded as:
+- `-1` = Reverse  
+- `0` = Neutral  
+- `1` = Forward  
+
 ## Licensing
 - Software (Arduino + Pi code): GPL v3  
 - Hardware/design files (STLs, wiring): CC BY-SA 4.0
