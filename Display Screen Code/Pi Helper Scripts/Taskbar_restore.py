@@ -30,3 +30,4 @@ def restore_taskbar():
 
 if __name__ == '__main__':
     restore_taskbar()
+
